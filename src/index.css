@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&family=Poppins:wght@100;300;600&family=Quicksand:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --theme-col-1: #ef6c00;
+  --theme-col-2: #623f99;
+  --montserrat: 'Montserrat', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --quicksand: 'Quicksand', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}

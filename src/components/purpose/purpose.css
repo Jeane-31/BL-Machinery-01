@@ -1,0 +1,44 @@
+.purpose {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 70px 30px;
+    gap: 50px;
+}
+
+.purposeLeft, .purposeRight {
+    flex: 1;
+}
+
+.purposeLeft img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.purposeRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.purposeRight h1 {
+    font-family: var(--poppins);
+    font-size: 50px;
+}
+
+.purposeRight p {
+    font-family: var(--poppins);
+    font-size: 25px;
+    font-weight: light;
+}
+
+.purposeRight h1 span:nth-of-type(2) {
+    color: var(--theme-col-1);
+}
+
+@media only screen and (max-width: 600px) {
+    .purpose{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,92 @@
+.pioCard {
+    background-color: white;
+    border: 2px solid var(--theme-col-1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--poppins);
+}
+
+.pioCard h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pioCard h3 {
+    font-size: 20px;
+    font-weight: light;
+}
+
+.pioneer {
+    background-color: white;
+    margin-top: -5px;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    gap: 100px;
+}
+
+.pioLeft, .pioRight {
+    flex: 1;
+}
+
+.pioLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pioLeft h1 {
+    font-family: var(--quicksand);
+    font-size: 50px;
+}
+
+.pioLeft h1 span:nth-of-type(1) {
+    color: var(--theme-col-1);
+}
+
+.pioLeft h3 {
+    font-size: 30px;
+    font-family: var(--poppins);
+    font-weight: bolder;
+}
+
+.pioLeft p {
+    font-size: 25px;
+    font-family: var(--quicksand);
+    font-weight: light;
+    letter-spacing: .5px;
+}
+
+.pioRight {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pioneer {
+        flex-direction: column;
+    }
+    .pioRight{
+        grid-template-columns: repeat(auto-fill, 70vw);
+        margin-inline: auto;
+        margin-top: -50px;
+    }
+
+    .pioLeft p{
+        font-size: 20px;
+    }
+
+    .pioLeft h1{
+        font-size: 40px;
+    }
+    .pioLeft h3{
+        font-size: 25px;
+    }
+}

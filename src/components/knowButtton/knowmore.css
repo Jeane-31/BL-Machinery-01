@@ -1,0 +1,16 @@
+.knowmore{
+    display: flex;
+    gap: 15px;
+    width: max-content;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: var(--theme-col-1);
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.knowmore:hover{
+    background-color: rgba(184, 52, 4, 0.747);
+}
