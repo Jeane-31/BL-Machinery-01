@@ -15,10 +15,14 @@
     height: 99%;
 }
 
-.contactRight{
+.contactRight form {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    gap: 20px;
+    height: 100%;
 }
 
 .contactRight form{
@@ -26,6 +30,16 @@
     width: 100%;
     flex-direction: column;
     gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.button-link {
+    width: 100%; /* Ensures the link takes full width of the form */
+    display: flex;
+    justify-content: center; /* Centers the button within the link */
 }
 
 .formField{
@@ -61,6 +75,9 @@ form button{
     color: white;
     cursor: pointer;
     transition: all 0.5s ease;
+    align-items: center;
+    
+    
 }
 
 form button:hover{

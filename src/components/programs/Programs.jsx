@@ -1,10 +1,10 @@
 import Divider from '../divider/Divider';
 import ProgCard from './ProgCard';
 import './programs.css';
-import imgg from '../../assets/machine1.jpeg'
-import imgg1 from '../../assets/machine2.jpeg'
-import imgg2 from '../../assets/machine3.jpeg'
-import imgg3 from '../../assets/machine4.jpeg'
+import imgg from '../../assets/machine1.png'
+import imgg1 from '../../assets/twoo.png'
+import imgg2 from '../../assets/FEE.png'
+import imgg3 from '../../assets/one.png'
 import { motion } from 'framer-motion';
 
 const Programs = () => {

@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     margin-top: 30px;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .progCard {
@@ -33,14 +34,16 @@
     font-size: 22px;
 }
 
-.progCardImg {
+.progCardImg img {
     min-height: 215px;
+    width: 325px;
 }
 
 .progCard img {
     object-fit: contain;
     /* width: 100%; */
     min-height: 215px;
+    /* object-fit: cover; */
 }
 
 .programs {
